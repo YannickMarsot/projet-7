@@ -1,0 +1,10 @@
+à faire:
+_récupérer l'id pour Page
+_finir Cards
+_finir Page
+_ajouter les logos, images depuis maquettes
+_ajouter le style
+
+Questions Mentors: 
+_HostPic, Hostname et Pictures s'affichent pas
+_Comment récupérer l'id? 
