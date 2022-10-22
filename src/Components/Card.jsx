@@ -1,5 +1,13 @@
 import PropTypes from 'prop-types'
 
+function Pictures(Pictures) {
+  ;[Pictures].forEach((element) => (
+    <li>
+      <img src={element} alt="pictures" />
+    </li>
+  ))
+}
+
 function Card({
   title,
   cover,
@@ -16,7 +24,9 @@ function Card({
     <div className="cardWrapper">
       <p className="title">{title}</p>
       <img src={cover} alt="cover" />
-      <img src={pictures} alt="pictures" />
+      <ul className="pictures">
+        <Pictures Pictures={pictures} />
+      </ul>
       <p className="description">{description}</p>
       <div className="host">
         <p className="name">{name}</p>
