@@ -6,13 +6,13 @@ function Page() {
     <div className="CardsContainer">
       {listAppart.map((data, index) => (
         <Card
-          key={data.id}
+          key={data.id + index}
           title={data.title}
           cover={data.cover}
           pictures={data.pictures}
           description={data.description}
-          name={data.name}
-          hostPic={data.picture}
+          name={data.host.name}
+          hostPic={data.host.picture}
           ratings={data.ratings}
           location={data.location}
           equipements={data.equipments}
