@@ -1,0 +1,50 @@
+#contentsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#bannerWrapper {
+  display: flex;
+  justify-content: center;
+}
+#banner {
+  background: #000000;
+  mix-blend-mode: darken;
+  border-radius: 25px;
+}
+
+#textWrapper {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rectangle1 {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+}
+.rectangle2 {
+  background: #ff6060;
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142.6%;
+  /* or 34px */
+
+  color: #ff6060;
+}
