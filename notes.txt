@@ -4,7 +4,19 @@ _finir Cards
 _finir Page
 _ajouter les logos, images depuis maquettes
 _ajouter le style
+_animation?
+_créer un README
 
 Questions Mentors: 
-_HostPic, Hostname et Pictures s'affichent pas
-_Comment récupérer l'id? 
+_alors que je n'implémante pas le style de error dans about us j'ai
+quand même du style appliqué (h2)
+_
+
+
+GENERAL STYLE:
+#root {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 3%;
+}
