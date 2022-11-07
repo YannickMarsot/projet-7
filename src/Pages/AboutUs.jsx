@@ -10,7 +10,7 @@ function AboutUs() {
       </div>
       <div id="textWrapper">
         <div className="rectangle1">
-          <div classname="rectangle2">
+          <div className="rectangle2">
             <h3>Fiabilité</h3>
           </div>
           <div className="rectangle3">
@@ -22,7 +22,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="rectangle1">
-          <div classname="rectangle2">
+          <div className="rectangle2">
             <h3>Respect</h3>
           </div>
           <div className="rectangle3">
@@ -34,7 +34,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="rectangle1">
-          <div classname="rectangle2">
+          <div className="rectangle2">
             <h3>Service</h3>
           </div>
           <div className="rectangle3">
@@ -46,7 +46,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="rectangle1">
-          <div classname="rectangle2">
+          <div className="rectangle2">
             <h3>Securité</h3>
           </div>
           <div className="rectangle3">
