@@ -1,35 +1,122 @@
-import CardHome from '../Components/CardHome'
-import listAppart from '../Data/listAppart.json'
-
-function Home() {
-  listAppart.forEach((element) => {
-    return (
-      <div className="cardHomeContainer">
-        <CardHome title={element.title} cover={element.cover} id={element.id} />
-      </div>
-      //console.log(element.id)
-      //<p>coucou</p>
-    )
-  })
-}
+//import DisplayCardHome from '../Components/displayCardHome'
+// import CardHome from '../Components/CardHome'
+import IMG from '../Assets/Banner/IMG.png'
+import '../Utils/Style/Style.css'
+import '../Utils/Style/Home.css'
 
 // function Home() {
 //   return (
-//     <div className="cardHomeContainer">
-//       {listAppart.map(
-//         (data, index) => [
-//           <CardHome
-//             key={data.id + index}
-//             title={data.title}
-//             cover={data.cover}
-//             id={data.id}
-//           />,
-//         ]
-//         //<p>coucou</p>
-//         //console.log(data.id)
-//       )}
+//     <div id="BigWrapper">
+//       <div id="BannerWrapper">
+//         <img src={IMG} alt="Banner" id="IMG" />
+//       </div>
+//       <div id="ContentWrapper">
+//         <DisplayCardHome />
+//       </div>
 //     </div>
 //   )
 // }
+
+function Home() {
+  return (
+    <div id="BigWrapper">
+      <div id="BannerWrapper">
+        <img src={IMG} alt="Banner" id="IMG" />
+      </div>
+      <div id="ContentWrapper">
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+        <div class="CardHome">
+          <h4>Appartement cosy</h4>
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            alt="cover"
+            className="imgHome"
+          />
+          {/* id="c67ab8a7" */}
+        </div>
+      </div>
+    </div>
+  )
+}
 
 export default Home
