@@ -1,4 +1,6 @@
 à faire:
+_faire page d'acceuil en css version mobile tablette aussi
+_faire attention au margin/padding avec figma
 _récupérer l'id pour Page
 _finir Cards
 _finir Page
@@ -8,15 +10,27 @@ _animation?
 _créer un README
 
 Questions Mentors: 
-_alors que je n'implémante pas le style de error dans about us j'ai
-quand même du style appliqué (h2)
-_
+_balise <a> html à la place de links qui fait buguer avec src="links"?
+_image si pas dans la maquette? 
+_galère à centrer en css T_T?
 
+// function Home() {
+//   return (
+//     <div className="cardHomeContainer">
+//       {listAppart.map(
+//         (data, index) => [
+//           <CardHome
+//             key={data.id + index}
+//             title={data.title}
+//             cover={data.cover}
+//             id={data.id}
+//           />,
+//         ]
+//         //<p>coucou</p>
+//         //console.log(data.id)
+//       )}
+//     </div>
+//   )
+// }
 
-GENERAL STYLE:
-#root {
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-    padding: 3%;
-}
+COMPOSANT "DISPLAY CARD" avec fontion home!!!! fait!
