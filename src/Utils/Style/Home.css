@@ -1,0 +1,27 @@
+#IMG {
+  object-fit: fill;
+  width: auto;
+  height: 223px;
+  border-radius: 25px;
+}
+
+#ContentWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80em;
+}
+
+.CardHome {
+  display: flex;
+  flex-direction: column-reverse;
+  background: #ff6060;
+  border-radius: 10px;
+  height: 340px;
+  width: 340px;
+  margin-top: 1em;
+}
+
+.imgHome {
+  object-fit: cover;
+}
