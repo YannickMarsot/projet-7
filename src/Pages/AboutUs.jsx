@@ -1,5 +1,5 @@
 import banner from '../Assets/Banner/banner.png'
-import '../Utils/Style/GeneralStyle.css'
+import '../Utils/Style/Style.css'
 import '../Utils/Style/aboutUs.css'
 
 function AboutUs() {
