@@ -32,15 +32,11 @@
   object-fit: cover;
 }
 
-h4 {
+.CardTitle {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  /* line-height: 142.6%; */
-  /* or 26px */
-  /* display: flex;
-  align-items: flex-end; */
   margin-left: 1em;
   color: #ffffff;
 }

@@ -25,7 +25,7 @@ function Home() {
       </div>
       <div id="ContentWrapper">
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -34,7 +34,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -43,7 +43,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -52,7 +52,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -61,7 +61,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -70,7 +70,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -79,7 +79,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -88,7 +88,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -97,7 +97,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
@@ -106,7 +106,7 @@ function Home() {
           {/* id="c67ab8a7" */}
         </div>
         <div class="CardHome">
-          <h4>Appartement cosy</h4>
+          <h2 className="CardTitle">Appartement cosy</h2>
           <img
             src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
             alt="cover"
