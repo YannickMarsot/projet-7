@@ -8,11 +8,11 @@ _ajouter les logos, images depuis maquettes
 _ajouter le style
 _animation?
 _créer un README
+_npm uninstall {packageName}
+_changer les titres par des classes
 
 Questions Mentors: 
-_balise <a> html à la place de links qui fait buguer avec src="links"?
-_image si pas dans la maquette? 
-_galère à centrer en css T_T?
+_
 
 // function Home() {
 //   return (
