@@ -38,13 +38,12 @@
   color: #ffffff;
 }
 
-p {
+.text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 142.6%;
-  /* or 34px */
 
   color: #ff6060;
 }
