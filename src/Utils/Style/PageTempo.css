@@ -103,17 +103,18 @@ text-align: right; */
 
 #contents {
   display: flex;
+  justify-content: space-between;
 }
 
 .contentWrapper {
-  width: 45%;
-  margin-right: 4rem;
+  width: 48%;
   background-color: #f6f6f6;
   border-radius: 10px;
 }
 
 .contentTitle {
   margin-top: 0;
+  padding-left: 1rem;
   background: #ff6060;
   border-radius: 10px;
   font-family: 'Montserrat';
@@ -126,13 +127,26 @@ text-align: right; */
 }
 
 #descriptionText {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 142.6%;
   /* or 26px */
+  color: #ff6060;
+}
+
+#listEquipements {
+  list-style-type: none;
+  padding-left: 1rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+
   color: #ff6060;
 }
