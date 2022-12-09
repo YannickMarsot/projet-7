@@ -1,18 +1,15 @@
 à faire:
-_faire page d'acceuil en css version mobile tablette aussi
+_ajouter le style version tel
 _faire attention au margin/padding avec figma
+_dynamiser le site
 _récupérer l'id pour Page
-_finir Cards
-_finir Page
-_ajouter les logos, images depuis maquettes
-_ajouter le style
 _animation?
 _créer un README
-_npm uninstall {packageName}
-_changer les titres par des classes
+_fonction list equipements pour Page
+_fonction ratings pour page
 
 Questions Mentors: 
-_
+_object fit cover et height avec react library carousel?
 
 // function Home() {
 //   return (
@@ -33,4 +30,3 @@ _
 //   )
 // }
 
-COMPOSANT "DISPLAY CARD" avec fontion home!!!! fait!
