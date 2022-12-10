@@ -1,4 +1,4 @@
-#contentsWrapper {
+#bigWrapper {
   display: flex;
   flex-direction: column;
 }
@@ -17,15 +17,17 @@
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
 }
 
-.rectangle1 {
+.contentsWrapper {
   background-color: #f6f6f6;
   border-radius: 5px;
 }
-.rectangle2 {
+.subTitleWrapper {
   background: #ff6060;
   border-radius: 5px;
+  padding-left: 1rem;
 }
 
 .AboutUsSubTitle {
@@ -44,6 +46,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 142.6%;
+  margin-left: 1rem;
 
   color: #ff6060;
 }
