@@ -13,7 +13,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 142.6%;
   /* or 34px */
   display: flex;
@@ -27,7 +27,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 142.6%;
   /* or 34px */
   display: flex;
@@ -35,4 +35,15 @@
   text-align: right;
 
   color: #ff6060;
+}
+
+@media screen and (max-width=480px) {
+  #home,
+  #aboutUs {
+    font-size: 1em;
+  }
+
+  #logo {
+    width: 90%;
+  }
 }

@@ -5,9 +5,9 @@
 }
 
 #IMG {
-  object-fit: fill;
-  width: auto;
-  height: 223px;
+  object-fit: contain;
+  width: 100%;
+  /*height: 223px;*/
   border-radius: 25px;
 }
 
@@ -23,8 +23,8 @@
   flex-direction: column-reverse;
   background: #ff6060;
   border-radius: 10px;
-  height: 340px;
-  width: 340px;
+  height: 21.25em;
+  width: 21.25em;
   margin-top: 1em;
 }
 

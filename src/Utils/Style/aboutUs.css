@@ -11,13 +11,15 @@
   background: #000000;
   mix-blend-mode: darken;
   border-radius: 25px;
+  object-fit: contain;
+  width: 90%;
 }
 
 #textWrapper {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
+  padding-left: 1em;
 }
 
 .contentsWrapper {
@@ -27,7 +29,7 @@
 .subTitleWrapper {
   background: #ff6060;
   border-radius: 5px;
-  padding-left: 1rem;
+  padding-left: 1em;
 }
 
 .AboutUsSubTitle {
@@ -46,7 +48,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 142.6%;
-  margin-left: 1rem;
+  margin-left: 1em;
+  margin-right: 1em;
 
   color: #ff6060;
 }
