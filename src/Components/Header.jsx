@@ -10,10 +10,10 @@ function Header() {
       </div>
       <div className="linksWrapper">
         <Link to="/">
-          <p id="home">Accueil</p>
+          <p className="links">Accueil</p>
         </Link>
         <Link to="/AboutUs">
-          <p id="aboutUs">A propos</p>
+          <p className="links">A propos</p>
         </Link>
       </div>
     </div>

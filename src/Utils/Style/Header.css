@@ -8,22 +8,8 @@
   display: flex;
 }
 
-#home {
+.links {
   padding-right: 10px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5em;
-  line-height: 142.6%;
-  /* or 34px */
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
-
-  color: #ff6060;
-}
-
-#aboutUs {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -40,10 +26,10 @@
 @media screen and (max-width=480px) {
   #home,
   #aboutUs {
-    font-size: 1em;
+    font-size: 10px;
   }
 
   #logo {
-    width: 90%;
+    width: 70%;
   }
 }
