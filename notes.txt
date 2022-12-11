@@ -10,6 +10,10 @@ _fonction ratings pour page
 
 Questions Mentors: 
 _object fit cover et height avec react library carousel?
+_media queries qui marche pas?
+_accordion with CSS ou react
+
+
 
 // function Home() {
 //   return (
