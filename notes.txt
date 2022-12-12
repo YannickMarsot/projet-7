@@ -9,9 +9,7 @@ _fonction list equipements pour Page
 _fonction ratings pour page
 
 Questions Mentors: 
-_object fit cover et height avec react library carousel?
-_media queries qui marche pas?
-_accordion with CSS ou react
+_
 
 
 
@@ -34,3 +32,15 @@ _accordion with CSS ou react
 //   )
 // }
 
+function DisplayCardHome() {
+  listAppart.forEach((element) => {
+    return (
+      <div></div>
+      // <div className="cardHomeContainer">
+      //   <CardHome title={element.title} cover={element.cover} id={element.id} />
+      // </div>
+      // console.log(element)
+      // <p>coucou</p>
+    )
+  })
+}
