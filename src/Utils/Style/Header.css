@@ -23,13 +23,20 @@
   color: #ff6060;
 }
 
-@media screen and (max-width=480px) {
-  #home,
-  #aboutUs {
-    font-size: 10px;
+@media screen and (max-width: 480px) {
+  .links {
+    font-size: 12px;
   }
 
   #logo {
-    width: 70%;
+    width: 145px;
+    height: 47px;
+  }
+
+  #IMG {
+    object-fit: cover;
+    width: 335px;
+    height: 111px;
+    border-radius: 25px;
   }
 }
