@@ -3,12 +3,16 @@
 }
 
 .carousel.carousel-slider {
-  height: 415px;
+  /*height: 415px;*/
   border-radius: 25px;
   /*object-fit: cover;*/
 }
 
 .carousel .thumbs-wrapper {
+  display: none;
+}
+
+.carousel .slide .legend {
   display: none;
 }
 
@@ -169,4 +173,37 @@ text-align: right; */
   /* or 26px */
 
   color: #ff6060;
+}
+
+@media screen and (max-width: 480px) {
+  #titlesTagsAndLandLordWrapper {
+    flex-direction: column;
+  }
+  #nameOfLocation {
+    font-size: 18px;
+  }
+  #location {
+    font-size: 14px;
+  }
+  .tagsText {
+    line-height: 50%;
+  }
+  #landLordWrapper {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  #landLordName {
+    font-size: 14px;
+  }
+  #profilePic {
+    height: 32px;
+    width: 32px;
+  }
+  #contents {
+    flex-direction: column;
+  }
+  .contentWrapper {
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }

@@ -11,7 +11,7 @@
   background: #000000;
   mix-blend-mode: darken;
   border-radius: 25px;
-  object-fit: contain;
+  object-fit: cover;
   width: 90%;
 }
 
@@ -52,4 +52,11 @@
   margin-right: 1em;
 
   color: #ff6060;
+}
+
+@media screen and (max-width: 480px) {
+  #banner {
+    width: 336px;
+    height: 223px;
+  }
 }
