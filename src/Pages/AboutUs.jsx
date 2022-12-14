@@ -1,26 +1,47 @@
+import React, { useState } from 'react'
 import banner from '../Assets/Banner/banner.png'
 import '../Utils/Style/Style.css'
 import '../Utils/Style/aboutUs.css'
 
 function AboutUs() {
+  //pour changer de classe accordeon
+  const [subTitleWrapper, setSubTitleWrapperClass] = useState(
+    'subTitleWrapper-bar unclicked'
+  )
+  const [TextWrapper, setTextWrapperClass] = useState('TextWrapper hidden')
+  const [isTextClicked, setIsTextClicked] = useState(false)
+
+  //pour faire apparaître le texte accordeon
+  const updateAccordeon = () => {
+    if (!isTextClicked) {
+      setSubTitleWrapperClass('subTitleWrapper-bar clicked')
+      setTextWrapperClass('TextWrapper visible')
+    } else {
+      setSubTitleWrapperClass('subTitleWrapper-bar unclicked')
+      setTextWrapperClass('TextWrapper hidden')
+    }
+    setIsTextClicked(!isTextClicked)
+  }
   return (
     <div id="bigWrapper">
       <div id="bannerWrapper">
         <img src={banner} alt="baniére" id="banner" />
       </div>
-      <div id="textWrapper">
-        <div className="contentsWrapper">
-          <div className="subTitleWrapper">
-            <h2 className="AboutUsSubTitle">Fiabilité</h2>
+      <div id="bigTextWrapper">
+        <nav>
+          <div className="contentsWrapper">
+            <div className={subTitleWrapper} onClick={updateAccordeon}>
+              <h2 className="AboutUsSubTitle">Fiabilité</h2>
+            </div>
+            <div className={TextWrapper}>
+              <p className="text">
+                Les annonces postées sur Kasa garantissent une fiabilité totale.
+                Les photos sont conformes aux logements, et toutes les
+                informations sont régulièrement vérifiées par nos équipes.
+              </p>
+            </div>
           </div>
-          <div className="TextWrapper">
-            <p className="text">
-              Les annonces postées sur Kasa garantissent une fiabilité totale.
-              Les photos sont conformes aux logements, et toutes les
-              informations sont régulièrement vérifiées par nos équipes.
-            </p>
-          </div>
-        </div>
+        </nav>
         <div className="contentsWrapper">
           <div className="subTitleWrapper">
             <h2 className="AboutUsSubTitle">Respect</h2>
