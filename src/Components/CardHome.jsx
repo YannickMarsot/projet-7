@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-function CardHome(title, cover, id) {
+function CardHome(title, cover, id, key) {
   return (
-    <Link to={`home/${id}`}>
+    <Link to={`home/${id}`} id={key}>
       <div className="cardHomeWrapper">
         <img src={cover} alt="cover"></img>
         <p>{title}</p>
