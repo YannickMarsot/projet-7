@@ -26,7 +26,14 @@
   background-color: #f6f6f6;
   border-radius: 5px;
 }
-.subTitleWrapper {
+
+.subTitleWrapper-bar.clicked {
+  background: #ff6060;
+  border-radius: 5px;
+  padding-left: 1em;
+}
+
+.subTitleWrapper-bar.unclicked {
   background: #ff6060;
   border-radius: 5px;
   padding-left: 1em;
