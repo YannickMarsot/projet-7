@@ -1,11 +1,19 @@
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
+//import { withRouter } from 'react-router-dom'
 
-const DisplayCardHome = (props) => {
+const DisplayCardHome = (props, history) => {
+  // const handleClick = () => {
+  //   history.push(props)
+  // }
+
   return (
     <div className="cardHomeContainer">
       {props.data.map((content) => (
-        <Link to={`Page/${content.id}`}>
+        <Link
+          to={`Page/${content.id}`}
+          //onClick={handleClick}
+        >
           <div className="CardHome">
             <h2 className="CardTitle">{content.title}</h2>
             <img src={content.cover} alt="cover" className="imgHome" />
@@ -29,4 +37,5 @@ DisplayCardHome.defaultProps = {
   //mettre "DefaultCover"
 }
 
+//export default withRouter(DisplayCardHome)
 export default DisplayCardHome

@@ -1,11 +1,11 @@
-import { Carousel } from 'react-responsive-carousel'
+//import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import '../Utils/Style/PageTempo.css'
 
 function PageTempo() {
   return (
     <div>
-      <Carousel>
+      {/* <Carousel>
         <div className="CarouselImgWrapper">
           <img
             className="imgCarousel"
@@ -30,7 +30,7 @@ function PageTempo() {
           />
           <p className="legend">Legend 3</p>
         </div>
-      </Carousel>
+      </Carousel> */}
       <div id="titlesTagsAndLandLordWrapper">
         <div id="TitleAndTags">
           <h2 id="nameOfLocation">Cozy loft on the Canal Saint-Martin</h2>

@@ -18,6 +18,12 @@
   width: 80em;
 }
 
+.cardHomeContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .CardHome {
   display: flex;
   flex-direction: column-reverse;
@@ -43,6 +49,13 @@
 
 @media screen and (max-width: 480px) {
   #ContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cardHomeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
