@@ -21,7 +21,55 @@ function Page() {
     getAppart()
     // eslint-disable-next-line
   }, []) //tableau vide pour lancer useEffect qu'une fois
-  console.log(chosenAppart)
+  //const pictures = chosenAppart && chosenAppart.pictures
+  //console.log(pictures)
+  const tags = chosenAppart && chosenAppart.tags
+  console.log(tags)
+  const equipments = chosenAppart && chosenAppart.equipments
+  // const equipementsList =
+  //   chosenAppart &&
+  //   equipments.maps((item, index) => (
+  //     <li key={index} className="equipements_list">
+  //       {item}
+  //     </li>
+  //   ))
+  return (
+    chosenAppart && (
+      <div>
+        {/* implementer Carousel */}
+        <div id="titlesTagsAndLandLordWrapper">
+          <div id="TitleAndTags">
+            <h2 id="nameOfLocation">{chosenAppart.title}</h2>
+            <h4 id="location">{chosenAppart.location}</h4>
+            <ul alt="tags" id="tags">
+              <li className="tagsContent">{tags}</li>
+            </ul>
+          </div>
+          <div id="landLordWrapper">
+            <div id="nameAndPicWrapper">
+              <p id="landLordName">{chosenAppart.host.name}</p>
+              <img
+                src={chosenAppart.host.picture}
+                alt="profilePic"
+                id="profilePic"
+              />
+            </div>
+            <div id="ratings">{chosenAppart.rating}</div>
+          </div>
+        </div>
+        <div id="contents">
+          <div className="contentWrapper">
+            <h3 className="contentTitle">Descripton</h3>
+            <p id="descriptionText">{chosenAppart.description}</p>
+          </div>
+          <div className="contentWrapper">
+            <h3 className="contentTitle">Equipements</h3>
+            {/* <ul id="listEquipements">{equipements}</ul> */}
+          </div>
+        </div>
+      </div>
+    )
+  )
 }
 
 export default Page
