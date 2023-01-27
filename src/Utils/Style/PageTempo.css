@@ -69,6 +69,17 @@ text-align: right; */
   background: #ff6060;
   border-radius: 25px;
   margin-right: 1em;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142.6%;
+  /* identical to box height, or 20px */
+  text-align: center;
+  /* margin-right: 1em; */
+  margin-left: 1em;
+
+  color: #ffffff;
 }
 
 .tagsText {

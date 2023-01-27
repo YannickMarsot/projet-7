@@ -1,7 +1,9 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import listAppart from '../Data/listAppart.json'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import Slider from '../Components/Slider'
+import Equipements from '../Components/Equipements'
+import Collapsible from '../Components/Collapse'
 import '../Utils/Style/PageTempo.css'
 
 function Page() {
@@ -21,22 +23,22 @@ function Page() {
     getAppart()
     // eslint-disable-next-line
   }, []) //tableau vide pour lancer useEffect qu'une fois
-  //const pictures = chosenAppart && chosenAppart.pictures
-  //console.log(pictures)
+
+  const pictures = chosenAppart && chosenAppart.pictures
   const tags = chosenAppart && chosenAppart.tags
-  console.log(tags)
+  //console.log(tags)
   const equipments = chosenAppart && chosenAppart.equipments
-  // const equipementsList =
+  // const equipementsList = (equipments) =>
   //   chosenAppart &&
   //   equipments.maps((item, index) => (
   //     <li key={index} className="equipements_list">
   //       {item}
   //     </li>
-  //   ))
+  // ))
   return (
     chosenAppart && (
       <div>
-        {/* implementer Carousel */}
+        <Slider data={pictures} />
         <div id="titlesTagsAndLandLordWrapper">
           <div id="TitleAndTags">
             <h2 id="nameOfLocation">{chosenAppart.title}</h2>
@@ -59,12 +61,14 @@ function Page() {
         </div>
         <div id="contents">
           <div className="contentWrapper">
-            <h3 className="contentTitle">Descripton</h3>
-            <p id="descriptionText">{chosenAppart.description}</p>
+            <Collapsible label="Description">
+              <p id="descriptionText">{chosenAppart.description}</p>
+            </Collapsible>
           </div>
           <div className="contentWrapper">
-            <h3 className="contentTitle">Equipements</h3>
-            {/* <ul id="listEquipements">{equipements}</ul> */}
+            <Collapsible label="Equipements">
+              <Equipements data={equipments} />
+            </Collapsible>
           </div>
         </div>
       </div>
