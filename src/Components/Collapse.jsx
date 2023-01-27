@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '../Utils/Style/Collapse.css'
 
 const Collapsible = (props) => {
   const [open, setOPen] = useState(false)
@@ -8,10 +9,12 @@ const Collapsible = (props) => {
 
   return (
     <div>
-      <div>
-        <button onClick={toggle}>{props.label}</button>
+      <div className="subTitleWrapper">
+        <h2 className="subTitle" onClick={toggle}>
+          {props.label}
+        </h2>
       </div>
-      <div>{open && <div className="toggle">{props.children}</div>}</div>
+      <div>{open && <div className="text">{props.children}</div>}</div>
     </div>
   )
 }
