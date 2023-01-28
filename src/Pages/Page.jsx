@@ -4,6 +4,7 @@ import listAppart from '../Data/listAppart.json'
 import Slider from '../Components/Slider'
 import Equipements from '../Components/Equipements'
 import Collapsible from '../Components/Collapse'
+import Rate from '../Components/Rate'
 import '../Utils/Style/PageTempo.css'
 
 function Page() {
@@ -56,7 +57,7 @@ function Page() {
                 id="profilePic"
               />
             </div>
-            <div id="ratings">{chosenAppart.rating}</div>
+            <Rate id="ratings" score={chosenAppart.rating} />
           </div>
         </div>
         <div id="contents">
