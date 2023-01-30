@@ -11,6 +11,7 @@ function Home() {
       <div id="BannerWrapper">
         <img src={IMG} alt="Banner" id="IMG" />
       </div>
+      <p id="textBanner">Chez vous, partout et ailleurs</p>
       <div id="ContentWrapper">
         <DisplayCardHome data={listAppart} />
       </div>

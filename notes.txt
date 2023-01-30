@@ -1,14 +1,14 @@
 à faire:
 _css a revoir 
-_suppr fichier inutiles
 _ajouter le style version tel
 _faire attention au margin/padding avec figma
 _ameliorer README
-_animation?
 
 
 Questions Mentors: 
-_
+_Images même tailles? 
+_centrer texte bannière
+_erreur unique "key" dans "displayCardHome"
 
 
 
