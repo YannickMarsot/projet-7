@@ -1,15 +1,13 @@
 à faire:
-_carrousel
-_fonction list equipements pour Page
-_fonction ratings pour page
+_css a revoir 
+_suppr fichier inutiles
 _ajouter le style version tel
 _faire attention au margin/padding avec figma
-_créer un README
+_ameliorer README
 _animation?
 
 
 Questions Mentors: 
 _
-
 
 
