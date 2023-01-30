@@ -24,10 +24,10 @@ function Slider(props) {
   return (
     <div id="container-slider">
       {props.data.map((content, index) => {
+        //console.log(content)
         return (
-          <div>
+          <div key={index}>
             <div
-              key={index}
               className={
                 slideIndex === index + 1 ? 'slide active-anim' : 'slide'
               }
