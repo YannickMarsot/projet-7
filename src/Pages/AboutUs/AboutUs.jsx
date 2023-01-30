@@ -1,7 +1,7 @@
-import banner from '../Assets/Banner/banner.png'
-import Collapsible from '../Components/Collapse'
-import '../Utils/Style/Style.css'
-import '../Utils/Style/aboutUs.css'
+import banner from '../../Assets/Banner/banner.png'
+import Collapsible from '../../Components/Collapse/Collapse'
+import '../../Utils/Style/Style.css'
+import '../AboutUs/AboutUs.css'
 
 function AboutUs() {
   return (

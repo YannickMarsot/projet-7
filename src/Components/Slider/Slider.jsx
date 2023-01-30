@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import BtnSlider from './BtnSlider'
-import '../Utils/Style/Slider.css'
+import BtnSlider from '../BtnSlider/BtnSlider'
+import '../Slider/Slider.css'
 
 function Slider(props) {
   //const length = props.data.length // longueur du tableau de slides

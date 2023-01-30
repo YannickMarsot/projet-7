@@ -1,4 +1,4 @@
-import '../Utils/Style/Tags.css'
+import '../Tags/Tags.css'
 
 function Tags(props) {
   return props.data.map((content, index) => {

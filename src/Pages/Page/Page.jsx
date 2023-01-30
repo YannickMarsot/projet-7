@@ -1,12 +1,12 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import listAppart from '../Data/listAppart.json'
-import Slider from '../Components/Slider'
-import Equipements from '../Components/Equipements'
-import Collapsible from '../Components/Collapse'
-import Rate from '../Components/Rate'
-import Tags from '../Components/Tags'
-import '../Utils/Style/Page.css'
+import listAppart from '../../Data/listAppart.json'
+import Slider from '../../Components/Slider/Slider'
+import Equipements from '../../Components/Equipements/Equipements'
+import Collapsible from '../../Components/Collapse/Collapse'
+import Rate from '../../Components/Rate/Rate'
+import Tags from '../../Components/Tags/Tags'
+import '../Page/Page.css'
 
 function Page() {
   const params = useParams()

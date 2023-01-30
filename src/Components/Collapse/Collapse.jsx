@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../Utils/Style/Collapse.css'
+import '../Collapse/Collapse.css'
 
 const Collapsible = (props) => {
   const [open, setOPen] = useState(false)

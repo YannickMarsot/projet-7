@@ -1,5 +1,5 @@
-import leftArrow from '../Assets/Arrows/left.png'
-import rightArrow from '../Assets/Arrows/right.png'
+import leftArrow from '../../Assets/Arrows/left.png'
+import rightArrow from '../../Assets/Arrows/right.png'
 
 function BtnSlider({ direction, moveSlide }) {
   return (

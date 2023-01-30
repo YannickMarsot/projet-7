@@ -1,4 +1,4 @@
-import '../Utils/Style/Equipements.css'
+import '../Equipements/Equipements.css'
 
 function Equipements(props) {
   return props.data.map((content, index) => {

@@ -1,5 +1,5 @@
-import fullStar from '../Assets/Stars/fullStar.png'
-import emptyStar from '../Assets/Stars/emptyStar.png'
+import fullStar from '../../Assets/Stars/fullStar.png'
+import emptyStar from '../../Assets/Stars/emptyStar.png'
 
 function Rate({ score }) {
   const stars = [1, 2, 3, 4, 5]

@@ -1,9 +1,9 @@
-import DisplayCardHome from '../Components/displayCardHome'
-import listAppart from '../Data/listAppart.json'
+import DisplayCardHome from '../../Components/Home/displayCardHome'
+import listAppart from '../../Data/listAppart.json'
 // import CardHome from '../Components/CardHome'
-import IMG from '../Assets/Banner/IMG.png'
-import '../Utils/Style/Style.css'
-import '../Utils/Style/Home.css'
+import IMG from '../../Assets/Banner/IMG.png'
+import '../../Utils/Style/Style.css'
+import '../Home/Home.css'
 
 //fonction pour afficher le contenu de la page home
 function Home() {
