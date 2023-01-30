@@ -5,7 +5,8 @@ import Slider from '../Components/Slider'
 import Equipements from '../Components/Equipements'
 import Collapsible from '../Components/Collapse'
 import Rate from '../Components/Rate'
-import '../Utils/Style/PageTempo.css'
+import Tags from '../Components/Tags'
+import '../Utils/Style/Page.css'
 
 function Page() {
   const params = useParams()
@@ -15,7 +16,6 @@ function Page() {
     const getAppart = async () => {
       const chosenOne = listAppart.find(({ id }) => id === params.id)
       //on récupére l'appart correspondant à l'id en parametre URL
-      //console.log(chosenOne)
       listAppart.map(() => setChosenAppart(chosenOne))
       if (chosenOne === undefined) {
         navigate('/*') //envoie l'utilisateur à la page d'erreur si l'appart ne correspond pas au parametre URL
@@ -27,15 +27,7 @@ function Page() {
 
   const pictures = chosenAppart && chosenAppart.pictures
   const tags = chosenAppart && chosenAppart.tags
-  //console.log(tags)
   const equipments = chosenAppart && chosenAppart.equipments
-  // const equipementsList = (equipments) =>
-  //   chosenAppart &&
-  //   equipments.maps((item, index) => (
-  //     <li key={index} className="equipements_list">
-  //       {item}
-  //     </li>
-  // ))
   return (
     chosenAppart && (
       <div>
@@ -45,7 +37,7 @@ function Page() {
             <h2 id="nameOfLocation">{chosenAppart.title}</h2>
             <h4 id="location">{chosenAppart.location}</h4>
             <ul alt="tags" id="tags">
-              <li className="tagsContent">{tags}</li>
+              <Tags data={tags} />
             </ul>
           </div>
           <div id="landLordWrapper">
