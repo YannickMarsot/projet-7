@@ -65,3 +65,9 @@
   right: 20px;
   transform: translateY(-60%);
 }
+
+@media screen and (max-width: 480px) {
+  #container-slider {
+    height: 295px;
+  }
+}

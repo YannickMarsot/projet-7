@@ -1,14 +1,6 @@
 à faire:
-_css a revoir 
-_ajouter le style version tel
-_faire attention au margin/padding avec figma
-_ameliorer README
-
-
-Questions Mentors: 
-_Images même tailles? 
-_centrer texte bannière
-_erreur unique "key" dans "displayCardHome"
+_fléches collapsible?
+_banner AboutUs? 
 
 
 

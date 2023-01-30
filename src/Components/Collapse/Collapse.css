@@ -1,3 +1,8 @@
+.backgroundWrapper {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+
 .subTitleWrapper {
   background: #ff6060;
   border-radius: 5px;
@@ -25,4 +30,10 @@
   padding-bottom: 1em;
 
   color: #ff6060;
+}
+
+@media screen and (max-width: 480px) {
+  .subTitle {
+    font-size: 15px;
+  }
 }

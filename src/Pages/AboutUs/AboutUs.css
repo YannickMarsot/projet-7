@@ -28,8 +28,12 @@
 }
 
 @media screen and (max-width: 480px) {
+  #bannerWrapper {
+    width: 100%;
+    height: 215px;
+  }
   #banner {
-    width: 336px;
-    height: 223px;
+    width: 100%;
+    height: 100%;
   }
 }

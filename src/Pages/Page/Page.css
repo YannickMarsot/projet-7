@@ -48,9 +48,9 @@
 }
 
 #profilePic {
-  width: 4em;
-  height: 4em;
-  border-radius: 35px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
   background: #c4c4c4;
 }
 
@@ -68,8 +68,8 @@
 
 .contentWrapper {
   width: 48%;
-  background-color: #f6f6f6;
-  border-radius: 10px;
+  /* background-color: #f6f6f6;
+  border-radius: 10px; */
 }
 
 #descriptionText {
@@ -88,31 +88,43 @@
   #titlesTagsAndLandLordWrapper {
     flex-direction: column;
   }
+
   #nameOfLocation {
     font-size: 18px;
   }
+
   #location {
     font-size: 14px;
   }
+
   .tagsText {
     line-height: 50%;
   }
+
   #landLordWrapper {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+
+  #nameAndPicWrapper {
+    margin-top: 0em;
+  }
+
   #landLordName {
     font-size: 14px;
   }
+
   #profilePic {
-    height: 32px;
-    width: 32px;
+    height: 64px;
+    width: 64px;
   }
+
   #contents {
     flex-direction: column;
   }
+
   .contentWrapper {
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
   }
 }

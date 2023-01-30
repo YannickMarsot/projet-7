@@ -1,0 +1,17 @@
+.rate-comp {
+  margin-top: 30px;
+}
+
+.star {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .rate-comp {
+    margin-top: 15px;
+  }
+  .star {
+    margin-right: 5px;
+    height: 25%;
+  }
+}

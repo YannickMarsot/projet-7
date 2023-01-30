@@ -8,7 +8,7 @@ const Collapsible = (props) => {
   }
 
   return (
-    <div>
+    <div className="backgroundWrapper">
       <div className="subTitleWrapper">
         <h2 className="subTitle" onClick={toggle}>
           {props.label}
