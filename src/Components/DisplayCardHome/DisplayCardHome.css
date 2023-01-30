@@ -1,0 +1,22 @@
+.CardHome {
+  display: flex;
+  flex-direction: column-reverse;
+  background: #ff6060;
+  border-radius: 10px;
+  height: 21.25em;
+  width: 21.25em;
+  margin-top: 1em;
+}
+
+.CardTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 1em;
+  color: #ffffff;
+}
+
+.imgHome {
+  object-fit: cover;
+}

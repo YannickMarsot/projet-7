@@ -1,6 +1,5 @@
-import DisplayCardHome from '../../Components/Home/displayCardHome'
+import DisplayCardHome from '../../Components/DisplayCardHome/displayCardHome'
 import listAppart from '../../Data/listAppart.json'
-// import CardHome from '../Components/CardHome'
 import IMG from '../../Assets/Banner/IMG.png'
 import '../../Utils/Style/Style.css'
 import '../Home/Home.css'
