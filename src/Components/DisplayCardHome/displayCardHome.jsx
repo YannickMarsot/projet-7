@@ -4,9 +4,9 @@ import '../DisplayCardHome/DisplayCardHome.css'
 
 const DisplayCardHome = (props) => {
   return props.data.map((content, index) => (
-    <Link className="cardHomeLink" to={`Page/${content.id}`}>
+    <Link className="cardHomeLink" to={`Page/${content.id}`} key={index}>
       <div className="cardHomeContainer">
-        <div key={index} className="CardHome">
+        <div className="CardHome">
           <h2 className="CardTitle">{content.title}</h2>
           <img src={content.cover} alt="cover" className="imgHome" />
         </div>

@@ -6,10 +6,7 @@
 
 #BannerWrapper {
   display: flex;
-  /* background: #000000;
-  mix-blend-mode: darken;
-  opacity: 0.3;
-  border-radius: 25px; */
+  position: relative;
 }
 
 #textBanner {
@@ -37,7 +34,7 @@
 #ContentWrapper {
   display: flex;
   justify-content: space-evenly;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 20px;
   background-color: #f6f6f6;
