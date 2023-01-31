@@ -23,6 +23,17 @@
   color: #ff6060;
 }
 
+.LinkError {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: underline #ff6060;
+  color: #ff6060;
+}
+
 @media screen and (max-width: 480px) {
   #ErrorTitle {
     font-size: 96px;
