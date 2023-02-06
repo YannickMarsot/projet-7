@@ -25,6 +25,7 @@ function Slider(props) {
     <div id="container-slider">
       {props.data.map((content, index) => {
         //console.log(content)
+        //mettre if else pour affichage bouton si sup à  1 retourner ci dessous sinon retourner sans boutton
         return (
           <div key={index}>
             <div
