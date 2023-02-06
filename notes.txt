@@ -1,6 +1,9 @@
 à faire:
-_fléches collapsible?
-_banner AboutUs? 
+_fléches collapsible
+_FOOTER BORDEL
+_slider fléche 1 img
+_faute ergonomie 
+_version mobile/tablette
 
 
 
