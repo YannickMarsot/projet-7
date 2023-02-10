@@ -15,6 +15,8 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 142.6%;
+  display: flex;
+  justify-content: space-between;
 
   color: #ffffff;
 }
@@ -30,6 +32,24 @@
   padding-bottom: 1em;
 
   color: #ff6060;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+  transform: rotate(0deg);
+  transition: 0.4s 0.4s ease-in-out;
+}
+
+.arrow_reverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+  transform: rotate(180deg);
+  transition: 0.4s ease-in-out;
 }
 
 @media screen and (max-width: 480px) {
