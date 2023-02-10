@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './Components/Header/Header'
-import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
 import AboutUs from './Pages/AboutUs/AboutUs'
 import Page from './Pages/Page/Page'
@@ -19,6 +18,5 @@ root.render(
       <Route path="/Page/:id" element={<Page />}></Route>
       <Route path="*" element={<Error />}></Route>
     </Routes>
-    <Footer />
   </BrowserRouter>
 )
