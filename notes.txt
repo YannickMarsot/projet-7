@@ -1,10 +1,7 @@
 à faire:
-_fléches collapsible
-_FOOTER BORDEL
-_slider fléche 1 img
+_FOOTER??? 
 _faute ergonomie 
-_version mobile/tablette (deplacer max width 800px pour tel)
-_favicon logo kasa
+
 
 
 
