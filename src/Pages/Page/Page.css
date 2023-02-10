@@ -84,7 +84,7 @@
   color: #ff6060;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   #titlesTagsAndLandLordWrapper {
     flex-direction: column;
   }

@@ -27,7 +27,7 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   #bannerWrapper {
     width: 100%;
     height: 215px;
