@@ -11,16 +11,15 @@
 
 #textBanner {
   position: absolute;
-  /* margin-top: 5%;
-  margin-bottom: 5%; */
-  top: auto;
+  width: 100%;
+  top: 12%;
   bottom: auto;
   font-family: Montserrat;
   font-size: 48px;
   font-weight: 500;
   line-height: 68px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px 2px black;
 }
@@ -59,5 +58,6 @@
 
   #textBanner {
     font-size: 17px;
+    top: 6%;
   }
 }
