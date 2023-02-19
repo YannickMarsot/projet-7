@@ -1,3 +1,7 @@
+#bigWrapper {
+  flex-grow: 1;
+}
+
 #titlesTagsAndLandLordWrapper {
   display: flex;
   justify-content: space-between;

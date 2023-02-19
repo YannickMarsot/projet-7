@@ -32,7 +32,7 @@ function Page() {
   const equipments = chosenAppart && chosenAppart.equipments
   return (
     chosenAppart && (
-      <div>
+      <div id="bigWrapper">
         <Slider data={pictures} />
         <div id="titlesTagsAndLandLordWrapper">
           <div id="TitleAndTags">
