@@ -10,10 +10,11 @@
 }
 
 #textBanner {
-  position: absolute;
   width: 100%;
-  top: 12%;
-  bottom: auto;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: Montserrat;
   font-size: 48px;
   font-weight: 500;
@@ -59,6 +60,6 @@
 
   #textBanner {
     font-size: 17px;
-    top: 6%;
+    /* top: 6%; */
   }
 }
