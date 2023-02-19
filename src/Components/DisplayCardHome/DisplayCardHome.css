@@ -1,6 +1,6 @@
 .cardHomeLink {
   margin-bottom: 20px;
-  flex-basis: 33.333333%;
+  padding: 11px;
 }
 
 .CardHome {
@@ -43,6 +43,7 @@
   .cardHomeLink {
     width: 100%;
     margin-bottom: 0;
+    padding: 0;
   }
 
   .CardHome {
