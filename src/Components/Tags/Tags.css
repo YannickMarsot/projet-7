@@ -16,3 +16,14 @@
 
   color: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+  .tagsWrapper {
+    height: 20px;
+    width: 90px;
+  }
+
+  .tagsText {
+    font-size: 9px;
+  }
+}
