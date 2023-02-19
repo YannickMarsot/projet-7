@@ -1,0 +1,19 @@
+#FooterContainer {
+  margin-top: 10px;
+  height: 155px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#logoFooter {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#copyright {
+  height: 17px;
+}
