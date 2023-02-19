@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import listAppart from '../../Data/listAppart.json'
 import Slider from '../../Components/Slider/Slider'
 import Equipements from '../../Components/Equipements/Equipements'
 import Collapsible from '../../Components/Collapse/Collapse'
@@ -14,9 +13,12 @@ function Page() {
   const [chosenAppart, setChosenAppart] = useState()
   useEffect(() => {
     const getAppart = async () => {
-      const chosenOne = listAppart.find(({ id }) => id === params.id)
+      const listApparts = await fetch(
+        'http://localhost:3000/listAppart.json'
+      ).then((response) => response.json())
+      const chosenOne = listApparts.find(({ id }) => id === params.id)
       //on récupére l'appart correspondant à l'id en parametre URL
-      listAppart.map(() => setChosenAppart(chosenOne))
+      listApparts.map(() => setChosenAppart(chosenOne))
       if (chosenOne === undefined) {
         navigate('/*') //envoie l'utilisateur à la page d'erreur si l'appart ne correspond pas au parametre URL
       }
